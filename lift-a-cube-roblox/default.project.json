@@ -1,0 +1,68 @@
+{
+  "name": "LiftAnEgg",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "Config": {
+        "$path": "src/shared/Config"
+      },
+      "Remotes": {
+        "$path": "src/shared/Remotes.lua"
+      },
+      "NumberFormat": {
+        "$path": "src/client/NumberFormat.lua"
+      }
+    },
+    "ServerScriptService": {
+      "MainServer": {
+        "$path": "src/server/MainServer.server.lua"
+      },
+      "DataManager": {
+        "$path": "src/server/DataManager.lua"
+      },
+      "LeaderstatsService": {
+        "$path": "src/server/LeaderstatsService.lua"
+      },
+      "TrainingService": {
+        "$path": "src/server/TrainingService.lua"
+      },
+      "EggService": {
+        "$path": "src/server/EggService.lua"
+      },
+      "ShopService": {
+        "$path": "src/server/ShopService.lua"
+      },
+      "ChestService": {
+        "$path": "src/server/ChestService.lua"
+      },
+      "ZoneService": {
+        "$path": "src/server/ZoneService.lua"
+      },
+      "MapService": {
+        "$path": "src/server/MapService.lua"
+      }
+    },
+    "StarterPlayer": {
+      "StarterPlayerScripts": {
+        "TrainingController": {
+          "$path": "src/client/TrainingController.client.lua"
+        },
+        "EggClient": {
+          "$path": "src/client/EggClient.client.lua"
+        },
+        "HUDController": {
+          "$path": "src/client/HUDController.client.lua"
+        },
+        "ShopUIController": {
+          "$path": "src/client/ShopUIController.client.lua"
+        },
+        "ChestUIController": {
+          "$path": "src/client/ChestUIController.client.lua"
+        },
+        "NumberFormat": {
+          "$path": "src/client/NumberFormat.lua"
+        }
+      }
+    }
+  }
+}
